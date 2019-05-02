@@ -9,4 +9,15 @@ Tensor, as defined in the tensorflow webpage, is a generalization of vector and 
 
 As an example, the following code creates three tensor. The first one is a 1D dimensional tensor, the second one is a 2D dimensional tensors and the third one creates a 3D tensor.
 
+{% highlight python %}
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+import numpy as np
+import tensorflow as tf
+{% endhighlight %}
+
+
  
